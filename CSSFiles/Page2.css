@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    color: darkred;
+}
+
+header img {
+    width: 20%;
+    height: auto;
+}
+
+nav {
+    flex: 1;
+    text-align: justify-all;
+    text-decoration: none;
+    font-size: x-large;
+    gap: calc(100% / 6);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ li a {
+     color: #d6a52b;
+     text-decoration: none;
+ }
+
+main {
+    background-color: #829f82;
+    display: flex;
+}
+
+section {
+    background-color: #829f82;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+section h2 {
+    width: 100%;
+    color: darkred;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+section figure {
+    text-align: center;                                           
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+section figure figcaption {
+    color: darkred;
+    text-align: center;
+}
+
+section p {
+    width: 100%;
+    color: darkred;
+    text-align: center;
+    font-size: xx-large;
+}
+
+article h3{
+    text-align: center;
+    font-size: x-large;
+    color: darkred;
+}
+article {
+    width: calc(96% / 3);
+    box-sizing: border-box;
+}
+
+article figure {
+    margin: 0 0;
+}
+
+article p{
+    text-align: center;
+    font-size: medium; 
+}
+
+
+

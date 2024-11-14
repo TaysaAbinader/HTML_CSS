@@ -88,8 +88,10 @@ article h3{
     color: darkred;
 }
 article {
-    width: calc(96% / 3);
+    width: calc(95% / 3);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 article figure {
